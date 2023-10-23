@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Neue';
+  src: url('fonts/NeueMontreal-Bold.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueReg';
+  src: url('fonts/NeueMontreal-Regular.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
 .gradient-background {
   background: linear-gradient(300deg, #47e45c, #329D5D, #1f633a);
   background-size: 180% 180%;
@@ -27,3 +43,11 @@
   border-radius: 50%;
 }
 
+.title {
+  font-family: Neue, sans-serif;
+}
+
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+}
